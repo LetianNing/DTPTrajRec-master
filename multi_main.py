@@ -222,7 +222,7 @@ if __name__ == '__main__':
     # spatial embedding 构建的轨迹流图
     spatial_A = load_graph_adj_mtx(road_file)
     spatial_A_trans = np.zeros((spatial_A.shape[0] + 1, spatial_A.shape[1] + 1)) + 1e-10
-    spatial_A_trans[1:, 1:] = spatial_A  # 第一行和第一列是空的
+    spatial_A_trans[1:, 1:] = spatial_A
 
 
     # 路网嵌入文件

@@ -29,9 +29,9 @@ The roles of other files are as follows:
 Each line the the trajectory consists(a example):
 - raw trajectory $T$(observation window is $\epsilon$): p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26
 - $\delta$-samping trajectory $T^\delta$: p1 p6 p11 p16 p21 p26
-- $T$:p1 * * * * p6 * * * * p11 * * * * p16 * * * * p21 * * * * p26
+- $T_d$:p1 * * * * p6 * * * * p11 * * * * p16 * * * * p21 * * * * p26
 - $T_f$: p1 p1 p1 p1 p1 p6 p6 p6 p6 p6 p11 p11 p11 p11 p11 p16 p16 p16 p16 p16 p21 p21 p21 p21 p21 p26
-- $T_d$: p1 p6 p6 p6 p6 p6 p11 p11 p11 p11 p11 p16 p16 p16 p16 p16 p21 p21 p21 p21 p21 p26 p26 p26 p26 p26
+- $T_n$: p1 p6 p6 p6 p6 p6 p11 p11 p11 p11 p11 p16 p16 p16 p16 p16 p21 p21 p21 p21 p21 p26 p26 p26 p26 p26
 
 ## Running
 
